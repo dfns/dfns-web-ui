@@ -1,4 +1,4 @@
-import { Wallet } from "@dfns/sdk/codegen/datamodel/Wallets";
+
 import { Component, Event, EventEmitter, Prop, State, h } from "@stencil/core";
 import dfnsStore from "../../../stores/DfnsStore";
 import langState from "../../../stores/LanguageStore";
@@ -9,6 +9,7 @@ import { ITypo, ITypoColor } from "../../../common/enums/typography-enums";
 import { disconnectWallet } from "../../../utils/helper";
 import { WalletDisconnectedError, isTokenExpiredError } from "../../../utils/errors";
 import router, { RouteType } from "../../../stores/RouterStore";
+import { Wallet } from "../../../services/LocalStorageService";
 
 @Component({
 	tag: "dfns-validate-wallet",

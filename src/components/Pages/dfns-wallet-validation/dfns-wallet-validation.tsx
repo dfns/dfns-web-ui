@@ -1,4 +1,4 @@
-import { Wallet, WalletStatus } from "@dfns/sdk/codegen/datamodel/Wallets";
+
 import { Component, Event, EventEmitter, JSX, Prop, State, h } from "@stencil/core";
 import dfnsStore from "../../../stores/DfnsStore";
 import langState from "../../../stores/LanguageStore";
@@ -8,7 +8,7 @@ import { EButtonSize, EButtonVariant } from "../../../common/enums/buttons-enums
 import { WalletDisconnectedError, isTokenExpiredError } from "../../../utils/errors";
 import { disconnectWallet } from "../../../utils/helper";
 import router, { RouteType } from "../../../stores/RouterStore";
-import { set } from "ts-pattern/dist/patterns";
+import { Wallet } from "../../../services/LocalStorageService";
 
 @Component({
 	tag: "dfns-wallet-validation",
@@ -116,7 +116,7 @@ export class DfnsWalletValidation {
 						content={langState.values.buttons.done}
 						variant={EButtonVariant.PRIMARY}
 						sizing={EButtonSize.MEDIUM}
-						disabled={dfnsStore.state.wallet?.status !== WalletStatus.Active}
+						disabled={dfnsStore.state.wallet?.status !== "Active"}
 						fullwidth
 						iconposition="left"
 						onClick={this.validateWallet.bind(this)}

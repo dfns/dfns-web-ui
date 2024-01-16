@@ -13,7 +13,7 @@ import { Amount, BlockchainAddress } from "@dfns/sdk/codegen/datamodel/Foundatio
 import { RegisterCompleteResponse } from "./services/api/Register";
 import { CreatePasskeyAction, SettingsAction, WalletOverviewAction } from "./common/enums/actions-enum";
 import { ITypo, ITypoColor } from "./common/enums/typography-enums";
-import { Wallet } from "@dfns/sdk/codegen/datamodel/Wallets";
+import { Wallet } from "./services/LocalStorageService";
 export { EAlertVariant } from "./common/enums/alerts-enums";
 export { EButtonSize, EButtonVariant } from "./common/enums/buttons-enums";
 export { JSX } from "@stencil/core";
@@ -22,7 +22,7 @@ export { Amount, BlockchainAddress } from "@dfns/sdk/codegen/datamodel/Foundatio
 export { RegisterCompleteResponse } from "./services/api/Register";
 export { CreatePasskeyAction, SettingsAction, WalletOverviewAction } from "./common/enums/actions-enum";
 export { ITypo, ITypoColor } from "./common/enums/typography-enums";
-export { Wallet } from "@dfns/sdk/codegen/datamodel/Wallets";
+export { Wallet } from "./services/LocalStorageService";
 export namespace Components {
     interface DfnsAlert {
         "classCss"?: string;
