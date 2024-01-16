@@ -1,0 +1,5 @@
+{
+	"app": "dfns-back",
+	"dfnsHost": "https://api.dfns.ninja",
+	"ethereumRecIdOffset": 27
+}

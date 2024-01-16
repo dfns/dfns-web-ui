@@ -1,0 +1,560 @@
+{
+    "common": {
+      "Parsells_sold": "Parsells sold",
+      "connect_wallet": "Connect wallet",
+      "logout": "Logout",
+      "new_creation": "New creation",
+      "my_creations": "My creations",
+      "total_supply": "Total supply",
+      "reset_filters": "Reset filters",
+      "settings": "Settings",
+      "search": "Search",
+      "cancel": "Cancel",
+      "save_changes": "Save changes",
+      "modify": "Modify",
+      "to": "to",
+      "by": "By",
+      "or": "Or",
+      "apply": "Apply",
+      "remove": "Remove",
+      "sold_out": "Sold out",
+      "finalize": "Finalize",
+      "lorem": "Lorem ipsum dolor sit amet consectetur. Et fermentum imperdiet vitae odio posuere amet diam. Consectetur urna id risus porttitor enim rutrum hendrerit viverra faucibus. Egestas sed iaculis orci non ipsum euismod nunc. Volutpat arcu molestie netus nulla non faucibus erat. Curabitur accumsan tincidunt neque eget tellus fermentum. Tincidunt mus amet pretium sed.  Egestas sed iaculis orci non ipsum euismod nunc. Volutpat arcu molestie netus nulla non faucibus erat. Curabitur accumsan tincidunt neque eget tellus fermentum. Tincidunt mus amet pretium sed",
+      "choose_a_payment_method": "Choose a payment method",
+      "crypto": "Crypto",
+      "credit_card": "Credit Card",
+      "categories": "categories",
+      "collections": "collections",
+      "nfts": "NFTs",
+      "results": "results",
+      "duration": "Duration",
+      "project_link": "Know more about {{project_link}}"
+    },
+    "header": {
+      "send": "Send",
+      "receive": "Receive",
+      "my_wallet": "My wallet",
+      "add_funds": "Add funds",
+      "nav_links": {
+        "launches": "Launches",
+        "market": "Market",
+        "my_parsells": "Profile",
+        "history": "History",
+        "listings": "My Listings",
+        "orders": "My Orders"
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "Home"
+      },
+      "launchpad": {
+        "title": "Launchpad",
+        "mint": "Mint it now for",
+        "buy": "Buy it now for",
+        "count_down": {
+          "days": "Days",
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "seconds": "Seconds"
+        }
+      },
+      "market": {
+        "title": "Market",
+        "subTitles": {
+          "categories": "Categories",
+          "collections": "Collections",
+          "nfts": "NFTs"
+        },
+        "subPages": {
+          "all": {
+            "title": "All"
+          },
+          "collections": {
+            "title": "Collections"
+          },
+          "nfts": {
+            "title": "NFTs"
+          }
+        },
+        "state": {
+          "in_mint": "Now minting",
+          "live_now": "Live now",
+          "not_started": "Not started",
+          "sold_out": "Sold out",
+          "ended": "Ended",
+          "ends": "Ends in"
+        },
+        "action": {
+          "explore_market": "Explore market",
+          "reserve_price": "Reserve price",
+          "current_bid": "Current bid",
+          "place_bid": "Place bid",
+          "mint_now": "Mint now",
+          "buy_now": "Buy now"
+        }
+      },
+      "utilities": {
+        "title": "Utilities"
+      },
+      "profile": {
+        "title": "Profile",
+        "you": "You",
+        "subPages": {
+          "nfts": {
+            "my_title": "My NFTs",
+            "title": "NFTs"
+          },
+          "activities": {
+            "my_title": "My Activities",
+            "title": "Activities",
+            "menu": {
+              "options": {
+                "orders": {
+                  "title": "My orders",
+                  "offers": "Offers",
+                  "auctions": "Auctions"
+                },
+                "listings": {
+                  "title": "My listings",
+                  "fixed_price": "Fixed price",
+                  "auctions": "Auctions"
+                },
+                "history": "History",
+                "settings": "Settings"
+              }
+            },
+            "event_type": {
+              "minted": "Minted",
+              "burn": "Burn",
+              "sold": "Sold",
+              "listed_auction": "Listed auction",
+              "receipt_from_auction": "Receipt from auction",
+              "sold_by_auction": "Sold by auction",
+              "canceled_auction": "Canceled auction",
+              "expired_auction": "Expired auction",
+              "executed_order": "Executed order",
+              "canceled_order": "Canceled order",
+              "execute_buy_now": "Bought",
+              "transfered": "Transfered"
+            }
+          }
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "subPages": {
+          "general": {
+            "title": "General",
+            "form": {
+              "email": "Email",
+              "email_description": "This email will be use for notification. It can be different from your authentification email. You will be able to change it whenever you want.",
+              "user_name": "Username",
+              "first_name": "First name",
+              "last_name": "Last name",
+              "description": "Description"
+            }
+          },
+          "social_media": {
+            "title": "Social media",
+            "form": {
+              "placeholder_twitter": "https://twitter.com/johndoe",
+              "label_twitter": "Twitter",
+              "placeholder_instagram": "https://instagram.com/johndoe",
+              "label_instagram": "Instagram",
+              "placeholder_discord": "JohnDoe#6411",
+              "label_discord": "Discord",
+              "placeholder_facebook": "https://facebook.com/johndoe",
+              "label_facebook": "Facebook",
+              "placeholder_medium": "https://medium.com/@johndoe",
+              "label_medium": "Medium",
+              "placeholder_website": "Your website",
+              "label_website": "Your website"
+            }
+          }
+        }
+      },
+      "launches": {
+        "title": "Launches",
+        "subpages": {
+          "in_mint": {
+            "title": "Now minting"
+          },
+          "sold_out": {
+            "title": "Sold out"
+          }
+        }
+      },
+      "nft": {
+        "title": "NFT",
+        "from_same_collection": "From the same collection",
+        "activities": "Activities",
+        "owned_by": "Owned by",
+        "sale_ends": "Sale ends",
+        "table": {
+          "offers": "Offers",
+          "bider": "Bider",
+          "bid_amount": "Bid Amount",
+          "bid_time": "Bid time",
+          "price": "Price",
+          "expiration": "Expiration",
+          "from": "From",
+          "no_offers_yet": "No offers yet"
+        },
+        "tabs": {
+          "properties": {
+            "title": "Properties",
+            "no_attributes": "No attributes"
+          },
+          "description": {
+            "title": "Description"
+          },
+          "details": {
+            "title": "Details",
+            "grid": {
+              "contract_address": "CONTRACT ADDRESS",
+              "token_id": "TOKEN ID",
+              "token_standard": "TOKEN STANDARD",
+              "blockchain": "BLOCKCHAIN",
+              "metadata": "METADATA"
+            }
+          }
+        }
+      },
+      "collection": {
+        "title": "Collection",
+        "owners": "Owners",
+        "floor_price": "Floor price",
+        "exchange_volume": "Exchanged volume",
+        "royalties": "Royalties",
+        "search": "Search"
+      }
+    },
+    "toasts": {
+      "error": {
+        "title": "Error",
+        "an_error_occured": "Please try refreshing the page, or return back later."
+      },
+      "success": {
+        "title": "Success",
+        "copy_success": "Copied to clipboard",
+        "save_information": "Your information have been saved"
+      },
+      "tx": {
+        "pending": {
+          "title": "Pending transaction",
+          "content": "Transfer takes about 30 seconds"
+        },
+        "confirmed": "Transaction confirmed",
+        "failed": {
+          "title": "Transaction failed",
+          "button": "Retry transaction"
+        }
+      },
+      "authentication": {
+        "login": "You have been logged in successfully",
+        "logout": "You have been logged out successfully"
+      }
+    },
+    "footer": {
+      "newsletter": {
+        "get_latest_updates": "Get the latest updates in your inbox!",
+        "email_placeholder": "Get the latest updates in your inbox!",
+        "subscribe": "Subscribe"
+      }
+    },
+    "policies": {
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service"
+    },
+    "modals": {
+      "gas_price": "You need funds in {{tokenName}} in order to pay gas price. You can purchase {{tokenName}} by credit card by clicking in  ",
+      "register": {
+        "title": "Create an account",
+        "create_account": "Create account",
+        "complete_later": "Complete later"
+      },
+      "receive": {
+        "title": "Receive"
+      },
+      "send": {
+        "title": "Send",
+        "send_to": "Send to",
+        "amount": "Amount",
+        "left_tip": "Tip: Simple caption text here",
+        "right_tip": "Amount available"
+      },
+      "confirm": {
+        "from": "From",
+        "to": "To",
+        "amount": "Amount",
+        "fee": "Fee",
+        "fee_tip": "Gas fees will be applied to this transaction"
+      },
+      "place_bid": {
+        "title": "Place your bid",
+        "bid": "Your bid",
+        "current": "Current bid",
+        "reserve": "Reserve price",
+        "add_funds": "Add funds",
+        "approved_payment": "Approved payment",
+        "info_1": "You need funds in {{tokenName}} in order to participate in this auction. You can purchase {{tokenName}} by credit card by clicking in  ",
+        "info_2": "Bids placed during an auction cannot be withdrawn. By placing a bid you have indicated that you agree to the ",
+        "info_3": "To finalize the purchase, you will require sufficient funds along with some natif tokens to cover the gas fees. "
+      },
+      "complete_purchase": {
+        "title": "Complete purchase",
+        "balance": "Balance",
+        "info_1": "To finalize the purchase, you will require sufficient funds along with some natif tokens to cover the gas fees.",
+        "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly."
+      },
+      "add_funds": {
+        "title": "Add funds to purchase",
+        "need": "You need",
+        "plus_gaz_fee": "+ gas fee",
+        "description": "Transfer funds to you wallet or add funds with a card. It can take up to a minute for your balance to update.",
+        "add_funds_with_cards": "Add funds with card",
+        "your": "Your",
+        "wallet": "wallet",
+        "balance": "Balance: "
+      },
+      "make_offer": {
+        "title": "Make an offer",
+        "set_offer": "Set your offer’s price",
+        "action": "Make offer"
+      },
+      "cancel_offer": {
+        "title": "Cancel offer",
+        "cancel_offer": "Are you sure you want to cancel your offer?",
+        "action": "Cancel offer"
+      },
+      "list_item": {
+        "title": "List item for sale",
+        "actions": {
+          "set_price": "Set a price",
+          "set_instant_price": "Set an instant purchase price",
+          "complete_listing": "Complete listing"
+        },
+        "sale_type": {
+          "fixed_price": "Fixed price",
+          "auctions": "Timed auction"
+        },
+        "summary": {
+          "title": "Summary",
+          "listing_price": "Listing price",
+          "platform_fees": "Platform fees",
+          "creator_royalties": "Creator royalties"
+        },
+        "potential_earnings": {
+          "title": "Potential earnings",
+          "auction": "Minimum auction sale",
+          "instant_sale": "Instant sale"
+        }
+      },
+      "cancel_listing": {
+        "title_fixed_price": "Cancel fixed price listing",
+        "title_auction": "Cancel auction listing",
+        "info_fixed_price": "Canceling your listing will unpublish this sale from the marketplace and requires a transaction to make sure it will nerver be fulfillable.",
+        "info_auction": "Canceling the auction will unpublish this auction from the marketplace and requires a transaction to make sure it will nerver be fulfillable.",
+        "summary": {
+          "title": "Summary",
+          "listing_price": "Listing price",
+          "platform_fees": "Platform fees",
+          "creator_royalties": "Creator royalties"
+        },
+        "potential_earnings": "Potential earnings",
+        "cancel_listing": "Cancel listing"
+      },
+      "accept_offer": {
+        "title": "Accept this offer",
+        "accept": "Accept",
+        "platform_fees": "Platform fees",
+        "creator_royalties": "Creator royalties",
+        "total_earnings": "Total earnings"
+      },
+      "settle_auction": {
+        "title": "Settle auction",
+        "summary": {
+          "title": "Summary",
+          "winning_bid": "Winning bid",
+          "winner": "Winner"
+        },
+        "info": "This auction has ended. Setting the auction will release NFT from escrow to the auction winner and will release the bid funds to the seller.",
+        "accept_button": "Settle auction"
+      }
+    },
+    "nft": {
+      "price": "Price",
+      "info": {
+        "whitelisted": "You've been whitelisted",
+        "not_whitelisted": "You are not whitelisted",
+        "highest_bidder": "You are the highest bidder"
+      },
+      "action": {
+        "cancel_listing": "Cancel listing",
+        "reapprove": "Reapprove",
+        "buy": "Buy now",
+        "sell": "Sell",
+        "transfer": "Sell / Transfer",
+        "cart": "Add to cart",
+        "auction": "New auction",
+        "bid": "Bid",
+        "mint": "Mint",
+        "place_a_bid": "Place a bid",
+        "go_marketplace_buy": "Shop the secondary",
+        "to_settle": "To settle",
+        "make_offer": "Make offer",
+        "list_for_sale": "List for sale"
+      },
+      "attribute": {
+        "percent": "have this trait"
+      },
+      "status": {
+        "current_bid": "Current bid by",
+        "end_date": "End date",
+        "auction_won_by": "Auction won by",
+        "buy_now_for": "Buy now for",
+        "sold_for": "Sold for",
+        "bought_for": "Bought for",
+        "reserve": "Reserve price",
+        "ends_in": "Ends in",
+        "last_price": "Last price",
+        "highest_offer": "Highest offer"
+      }
+    },
+    "filters": {
+      "sort_by": {
+        "placeholder": "Sort by",
+        "recently_listed": "Recently Listed",
+        "ending_soon": "Ending Soon",
+        "price_low_to_high": "Price low to high",
+        "price_high_to_low": "Price high to low",
+        "highest_last_sale": "Highest last sale",
+        "oldest": "Oldest"
+      },
+      "status": {
+        "buy": "Buy now",
+        "auction": "On auction",
+        "new": "New",
+        "offer": "Has offer",
+        "sale": "On fixed price",
+        "noSale": "Not on sale"
+      },
+      "event": {
+        "all": "All",
+        "minted": "Minted",
+        "burnt": "Burnt",
+        "bought": "Bought",
+        "sold": "Sold",
+        "listed_auction": "Listed auction",
+        "receipt_from_auction": "Receipt from auction",
+        "sold_by_auction": "Sold by auction",
+        "canceled_auction": "Canceled auction",
+        "expired_auction": "Expired auction",
+        "transfered": "Transfered",
+        "canceled_order": "Canceled order",
+        "executed_order": "Executed order"
+      },
+      "chips": {
+        "all": "All",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "received": "Received",
+        "made": "Made",
+        "on_going": "On going",
+        "to_settle": "To settle",
+        "active_listing": "Active listing",
+        "inactive_listing": "Inactive listing",
+        "inactive_offers": "Inactive offers"
+      }
+    },
+    "components": {
+      "see_all": {
+        "collections": "See all collections",
+        "nfts": "See all NFTs"
+      },
+      "register_modal": {
+        "title": "Create an account",
+        "create_account": "Create account",
+        "complete_later": "Complete later",
+        "form": {
+          "email": "Email",
+          "notification_email": "Notification email",
+          "account_name": "Account name",
+          "username": "Username",
+          "first_name": "First name",
+          "last_name": "Last name",
+          "description": "Description"
+        }
+      },
+      "file_input": {
+        "title": "Profile picture",
+        "description": "We recommend that you use an image of at least {{recommandedWidth}} x {{recommandedHeight}} pixels and that it is no larger than {{maxMbSize}} MB. Import a PNG or JPEG file."
+      },
+      "time_left": {
+        "ended": "Ended"
+      },
+      "activities": {
+        "table": {
+          "item": "Item",
+          "price": "Price",
+          "event": "Event",
+          "from": "From",
+          "to": "To",
+          "date": "Date",
+          "time_left": "Time left",
+          "accept_offer": "Accept offer",
+          "winning_bid": "Winning bid",
+          "user_last_bid": "Your last bid",
+          "bid": "Place bid",
+          "cancel": "Cancel",
+          "settle_auction": "Settle auction",
+          "not_started": "Not started",
+          "winner": "winner",
+          "reapprove": "Reapprove",
+          "add_funds": "Add funds"
+        }
+      }
+    },
+    "validation_messages": {
+      "invalid_email": "Invalid email",
+      "invalid_url": "The URL is not in a valid format",
+      "invalid_media_url": "The social media URL you entered is not valid",
+      "is_pseudo": "Invalid username. The username can only contain alphanumeric characters (such as 0-9, A-Z, and a-z) and be between 3 and 20 characters in length.",
+      "field_required": "This field is required",
+      "min_length": "This field must contain a minimum of {{1}} characters",
+      "max_length": "This field must contain a maximum of {{1}} characters",
+      "only_numbers": "This field must only contain numbers",
+      "no_space_in_string": "This field must not contain spaces",
+      "unique_username": "This username is already taken",
+      "unique_email": "This email is already taken",
+      "invalid_wallet_address": "Please, enter a valid address",
+      "below_max": "This field must be lower than max",
+      "above_min": "This field must be upper than min",
+      "above_max_wallet_funds": "Not enough tokens in your wallet",
+      "need_to_be_above_current_bid": "You bid must be greater than or equal to 1% more than the previous bid",
+      "need_to_be_above_reserve_price": "Please enter an amount greater or equal than the reserve price"
+    },
+    "buttons": {
+      "back": "Back",
+      "next": "Next",
+      "view": "View",
+      "view_more": "View More",
+      "view_less": "View Less",
+      "confirm_payment": "Confirm payment",
+      "place_bid": "Place bid",
+      "approve_payment": "Approve payment",
+      "approve_listing": "Approve listing",
+      "buy_now": "Buy it now",
+      "close": "Close"
+    },
+    "inputs": {
+      "placeholder": {
+        "wallet": "Wallet address"
+      },
+      "tips": {
+        "available": "available"
+      }
+    }
+  }
+  

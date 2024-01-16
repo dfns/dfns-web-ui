@@ -1,0 +1,48 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"incremental": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@Hooks/*": ["src/hooks/*"],
+			"@Components/*": ["src/components/*"],
+			"@Stores/*": ["src/stores/*"],
+			"@Assets/*": ["src/assets/*"],
+			"@Services/*": ["src/services/*"],
+			"@Types/*": ["src/types/*"],
+			"@Utils/*": ["src/utils/*"],
+			"@Validators/*": ["src/validators/*"],
+			"@Common/*": ["src/common/*"],
+			"@Themes/*": ["src/themes/*"],
+			"@Configs/*": ["src/configs/*"],
+			"@Tests/*": ["src/__tests__/*"],
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "jest.config.js"],
+	"exclude": ["node_modules"]
+}

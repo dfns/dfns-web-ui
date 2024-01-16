@@ -1,0 +1,1 @@
+export const DFNS_PERMISSION_NAME = 'Allow Wallets and Credentials Management'
