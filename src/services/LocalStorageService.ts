@@ -1,5 +1,5 @@
 import { CredentialInfo } from "@dfns/sdk/codegen/datamodel/Auth";
-import { Wallet } from '@dfns/sdk/codegen/datamodel/Wallets';
+import { GetWalletAssetsResponse, ListWalletsResponse } from "@dfns/sdk/generated/wallets";
 
 export const DFNS_END_USER_TOKEN = 'dfnsEndUserToken'
 export const DFNS_ACTIVE_WALLET = 'dfnsActiveWallet'
@@ -7,6 +7,9 @@ export const OAUTH_ACCESS_TOKEN = 'oauthAccessToken'
 export const DFNS_CREDENTIALS = 'dfnsCredentials'
 export const CACHED_WALLET_PROVIDER = 'cachedWalletProvider'
 
+
+export type Wallet = ListWalletsResponse['items'][0]
+export type WalletAsset = GetWalletAssetsResponse['assets'][0]
 
 export enum WalletProvider {
 	DFNS = 'dfns',

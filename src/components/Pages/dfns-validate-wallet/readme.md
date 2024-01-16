@@ -7,9 +7,9 @@
 
 ## Events
 
-| Event           | Description | Type                                                                                                                                                                                                 |
-| --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `walletCreated` |             | `CustomEvent<{ id: string; network: BlockchainNetwork; status: WalletStatus; signingKey?: SigningKey; address?: string; name?: string; externalId?: string; tags: string[]; dateCreated: string; }>` |
+| Event           | Description | Type                                                                                                                                                                                                                                                               |
+| --------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `walletCreated` |             | `CustomEvent<{ id: string; network: BlockchainNetwork; status: WalletStatus; signingKey: SigningKey; address?: string; name?: string; externalId?: string; tags: string[]; dateCreated: string; dateExported?: string; imported?: boolean; exported?: boolean; }>` |
 
 
 ## Dependencies

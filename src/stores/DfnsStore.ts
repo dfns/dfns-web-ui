@@ -1,5 +1,4 @@
 import { CredentialInfo } from "@dfns/sdk/codegen/datamodel/Auth";
-import { Wallet, WalletAsset } from "@dfns/sdk/codegen/datamodel/Wallets";
 import { createStore } from "@stencil/store";
 
 import LocalStorageService, {
@@ -7,12 +6,16 @@ import LocalStorageService, {
 	DFNS_CREDENTIALS,
 	DFNS_END_USER_TOKEN,
 	OAUTH_ACCESS_TOKEN,
+	Wallet,
+	WalletAsset,
 } from "../services/LocalStorageService";
 import { EventEmitter } from "../services/EventEmitter";
 import IWalletInterface from "../services/wallet/IWalletInterface";
 import { BlockchainNetwork } from "@dfns/sdk/codegen/datamodel/Wallets";
 import { IColors } from "../common/interfaces/IColors";
 import { EThemeModeType } from "../common/enums/themes-enums";
+
+
 
 interface DfnsState {
 	appName: string | null;

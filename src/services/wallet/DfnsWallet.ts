@@ -1,4 +1,3 @@
-import { Wallet } from "@dfns/sdk/codegen/datamodel/Wallets";
 import jwt_decode, { JwtPayload } from "jwt-decode";
 import dfnsStore from "../../stores/DfnsStore";
 import router, { RouteType } from "../../stores/RouterStore";
@@ -11,6 +10,7 @@ import LocalStorageService, {
 	DFNS_CREDENTIALS,
 	DFNS_END_USER_TOKEN,
 	OAUTH_ACCESS_TOKEN,
+	Wallet,
 	WalletProvider,
 } from "../LocalStorageService";
 import { RegisterCompleteResponse } from "../api/Register";
@@ -19,6 +19,7 @@ import { DfnsWalletProvider } from "../provider/DfnsWalletProvider";
 import { BigNumber } from "ethers";
 import { isDfnsError } from "../../utils/errors";
 import { UserRecoveryChallenge } from "@dfns/sdk/codegen/datamodel/Auth";
+
 
 class DfnsWallet implements IWalletInterface {
 	private static ctx: DfnsWallet;

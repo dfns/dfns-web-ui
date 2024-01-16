@@ -1,13 +1,6 @@
 import { DfnsApiClient, DfnsDelegatedApiClient, Fido2Attestation, UserActionChallengeResponse, UserRegistrationChallenge } from "@dfns/sdk";
 import { DeactivateCredentialRequest, ListUserCredentialsResponse } from "@dfns/sdk/codegen/Auth";
 import {
-	BroadcastTransactionRequest,
-	CreateWalletRequest,
-	GenerateSignatureRequest,
-	GetSignatureResponse,
-	TransferAssetRequest,
-} from "@dfns/sdk/codegen/Wallets";
-import {
 	CredentialInfo,
 	CredentialKind,
 	Fido2Options,
@@ -20,19 +13,16 @@ import {
 	BlockchainNetwork,
 	SignatureKind,
 	SignatureStatus,
-	TransactionKind,
 	TransactionStatus,
 	TransferKind,
 	TransferStatus,
-	Wallet,
-	WalletAsset,
 	WalletStatus,
 } from "@dfns/sdk/codegen/datamodel/Wallets";
 import { Buffer } from "buffer";
 import { ethers } from "ethers";
 import jwt_decode, { JwtPayload } from "jwt-decode";
 import { ITokenInfo } from "../common/interfaces/ITokenInfo";
-import LocalStorageService, { DFNS_END_USER_TOKEN, OAUTH_ACCESS_TOKEN } from "../services/LocalStorageService";
+import LocalStorageService, { DFNS_END_USER_TOKEN, OAUTH_ACCESS_TOKEN, Wallet, WalletAsset } from "../services/LocalStorageService";
 import Login from "../services/api/Login";
 import Recover from "../services/api/Recover";
 import Register from "../services/api/Register";
@@ -41,6 +31,7 @@ import { arrayBufferToBase64UrlString, base64url } from "./base64url";
 import { DfnsError, DfnsHttpError, TokenExpiredError, isDfnsError } from "./errors";
 import { generateRecoveryKeyCredential, generateSignature, getDefaultTransports, getDfnsUsernameFromUserToken } from "./helper";
 import { create, sign } from "./webauthn";
+import { BroadcastTransactionRequest, CreateWalletRequest, GenerateSignatureRequest, GetSignatureResponse, TransferAssetRequest } from "@dfns/sdk/generated/wallets";
 
 export function isDfnsHttpError(err: unknown): err is DfnsHttpError {
 	if (hasErrorProperty(err)) {
@@ -374,16 +365,14 @@ export async function sendTransaction(
 			const request: BroadcastTransactionRequest = {
 				walletId: wallet.id,
 				body: {
-					kind: TransactionKind.Evm,
+					kind: "Evm",
 					to: to,
 					value: value,
 					data: data,
+					nonce: txNonce,
 				},
 			};
 
-			if (txNonce) {
-				request.body.nonce = txNonce;
-			}
 			const challenge = await dfnsDelegated.wallets.broadcastTransactionInit(request);
 
 			const defaultTransports = getDefaultTransports();
